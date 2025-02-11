@@ -1,0 +1,29 @@
+{
+  "name": "smm_pro_msk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "start_mailings": "node ./assets/mailings/mailings.js",
+    "user_messages": "node ./assets/user_messages/user_messages.js",
+    "dev": "nodemon index.js",
+    "start_db_config": "node ./assets/scripts/check_buttons.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@a2seven/yoo-checkout": "^1.1.4",
+    "dotenv": "^16.4.5",
+    "logger": "^0.0.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "nodemon": "^3.1.4",
+    "uuid": "^10.0.0",
+    "winston": "^3.14.2",
+    "yookassa": "^0.1.1"
+  }
+}
